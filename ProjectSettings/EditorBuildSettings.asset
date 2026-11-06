@@ -18,3 +18,4 @@ EditorBuildSettings:
     path: Assets/Scenes/FinishGame.unity
     guid: c4b458c418cc0af4f89fe1ff4cec1d44
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
