@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 8121840560116397621}
   - component: {fileID: 4014793786823382255}
   m_Layer: 0
-  m_Name: RedBullet
+  m_Name: EnemyProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
