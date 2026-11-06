@@ -8,7 +8,7 @@ namespace NightCity.Gameplay
     [RequireComponent(typeof(SpriteRenderer), typeof(ProjectileLauncher))]
     public sealed class ShootingMonster : Monster
     {
-        [SerializeField, Min(0f)]
+        [SerializeField, Min(0.1f)]
         [Tooltip("Seconds between shots, in scaled time. The first shot comes one interval after the level starts.")]
         private float _fireInterval = 2f;
 
