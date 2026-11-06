@@ -123,7 +123,9 @@ namespace NightCity.Gameplay
             }
 
             _isRunning = Input.GetButton(HorizontalAxis);
-            _horizontalInput = _isRunning ? Input.GetAxis(HorizontalAxis) : 0f;
+            // Raw input: the character reaches full speed on the first frame instead of ramping up with the
+            // axis sensitivity, and holding both directions cancels out to standing still.
+            _horizontalInput = _isRunning ? Input.GetAxisRaw(HorizontalAxis) : 0f;
             if (_isRunning)
             {
                 _sprite.flipX = _horizontalInput < 0f;
