@@ -348,8 +348,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1706881329}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ExitButton
+        m_TargetAssemblyTypeName: NightCity.UI.MenuButtons, NightCity
+        m_MethodName: OpenMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1706881327}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 125c34703e6ff844da3673356c2d2ffe, type: 3}
+  m_Script: {fileID: 11500000, guid: a2512a2142d51414aac46bdc10d62252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1706881330
