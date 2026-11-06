@@ -92,7 +92,7 @@ public class Character : Unit
     {
         Lives--;
 
-        rigidbody.velocity = Vector3.zero;
+        rigidbody.linearVelocity = Vector3.zero;
         rigidbody.AddForce(transform.up * 4F, ForceMode2D.Impulse);
 
         Debug.Log(lives);
