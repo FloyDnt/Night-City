@@ -58,3 +58,12 @@ Music: 8-bit covers by 8 Bit Universe.
 - Level: "The Chain" (Fleetwood Mac)
 - Game over: "The Number of the Beast" (Iron Maiden)
 - Victory: "Sgt. Pepper's Lonely Hearts Club Band" (The Beatles)
+
+## License
+
+The project is released under the [MIT License](LICENSE), except for third-party content, which the
+license does not cover and which belongs to its owners:
+
+- the music tracks in `Assets/_Project/Audio/Music` (covers by 8 Bit Universe of the songs listed
+  above);
+- the city background, `Assets/_Project/Sprites/CityBackground.jpg`.
